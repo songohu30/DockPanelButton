@@ -13,7 +13,7 @@ namespace DockPanelButton
     public class App : IExternalApplication
     {
         RibbonItem _button_easy; //buttton that switchess on/off dock panel visiblity and toggles image and text
-        RibbonItem _button_medium; //button that does the same as above but it also uses external event to align with current dock panel state
+        RibbonItem _button_medium; //button that does the same as above but it uses external event to align button image and text with current dock panel state
         ExternalEvent _toggleEvent;
 
         //this will give you access to App instance and its methods
