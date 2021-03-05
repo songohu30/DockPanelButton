@@ -144,6 +144,7 @@ namespace DockPanelButton
         {
             DockablePaneProviderData data = new DockablePaneProviderData();           
             DockPanelPage dockPanelPage = new DockPanelPage();
+            dockPanelPage.SetupDockablePane(data);
             DockablePaneId dpid = new DockablePaneId(new Guid("{C38746CB-C632-4C88-9556-4DAEDB1A6E97}"));
             app.RegisterDockablePane(dpid, "MyDockPanel", dockPanelPage as IDockablePaneProvider);
         }
