@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>XXXX</Name>
+    <Assembly>DockPanelButton.dll</Assembly>
+    <AddInId>24917EC0-CC02-4BA7-89FE-E42AF763FB2E</AddInId>
+    <FullClassName>DockPanelButton.App</FullClassName>
+    <VendorId>XXXX</VendorId>
+    <VendorDescription>XXXX</VendorDescription>
+  </AddIn>
+</RevitAddIns>
