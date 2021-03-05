@@ -12,7 +12,7 @@ namespace DockPanelButton
     [Regeneration(RegenerationOption.Manual)]
     public class App : IExternalApplication
     {
-        RibbonItem _button_easy; //buttton that switchess on/off dock panel visiblity and changes its visibility state
+        RibbonItem _button_easy; //buttton that switchess on/off dock panel visiblity and toggles image and text
         RibbonItem _button_medium; //button that does the same as above but it also uses external event to align with current dock panel state
         ExternalEvent _toggleEvent;
 
